@@ -1,21 +1,18 @@
 // Custom.scss
-// Option B: Include parts of Bootstrap
+// Option A: Include all of Bootstrap
 
-// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
-@import "../node_modules/bootstrap/scss/functions";
+// Include any default variable overrides here (though functions won't be available)
+$font-family-sans-serif: "Babe Sans", sans-serif;
+$headings-font-family: "Space Grotesk", sans-serif;
+$primary: #0d6d5a;
+$secondary: #dab785ff;
+$success: #108971ff;
+$danger: #c03221ff;
+$warning: #f2c14eff;
+$light: #ecdac1ff;
+$dark: #130801ff;
 
-// 2. Include any default variable overrides here
 
-// 3. Include remainder of required Bootstrap stylesheets
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
+@import "../bootstrap/scss/bootstrap";
 
-// 4. Include any optional Bootstrap components as you like
-@import "../node_modules/bootstrap/scss/root";
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-@import "../node_modules/bootstrap/scss/images";
-@import "../node_modules/bootstrap/scss/containers";
-@import "../node_modules/bootstrap/scss/grid";
-
-// 5. Add additional custom code here
+// Then add additional custom code here

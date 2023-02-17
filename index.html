@@ -3,25 +3,43 @@
     <title>Curran Codes</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: "Babe Sans";
+            src: local("BabeSans"), url("resources/BabeSans.otf") format("opentype");
+        }
+    </style>
+    <link href="scss/Custom.css" rel="stylesheet">
     <link href="bootstrap/js/bootstrap.bundle.js" rel="script">
     <style>
-        #nav-tabs > li {
-            font-size: 1.25vw;
+        #logo{
+            font-family: "Babe Sans", sans-serif;
         }
     </style>
 </head>
-<body class="bg-black text-white">
-    <h2 class="col-md-3 col-lg-4 position-relative float-start">
-        Curran Codes
-    </h2>
-    <h1 class="col-lg-3 position-absolute top-50 start-50 translate-middle font-monospace">
-        Coming Soon...
-        <a class="text-white text-right position-relative translate-middle"
-           href="https://github.com/currancodes">
-            <h1>GitHub</h1>
-        </a>
-    </h1>
+<body class="container-fluid bg-light">
+    <nav class="navbar bg-light">
+        <h2 class="text-primary mt-2" id = "logo">
+            CURRAN FITZGERALD
+        </h2>
+        <a class="float-right text-success mt-1 text-primary">
+            <h4 class="text-primary">My Resume</h4>
+         </a>
+    </nav>
+
+    <div class="col-lg-3 position-absolute top-50 start-50 translate-middle justify-content-center">
+        <h1 class="text-center text-dark">
+            Site Coming Soon
+            <a class="text-center"
+               href="https://github.com/currancodes">
+                <h3 class="mt-3">Visit My GitHub</h3>
+            </a>
+        </h1>
+    </div>
+
 
 </body>
 <footer>
