@@ -28,7 +28,8 @@
     </style>
 </head>
 <body class="bg-light">
-    <!--dynamically collapsible navbar with dropdown-->
+
+    <!--Dynamically Collapsible Navbar With Dropdown-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid" role="navigation">
         <a class="navbar-brand ms-3" href="#">
             <h1 class="text-primary">CURRAN FITZGERALD</h1>
@@ -53,6 +54,13 @@
                     </a>
                 </li>
                 <li class="nav-item ms-1">
+                    <a class="nav-link" href="#resume_section">
+                        <h3>
+                            Resume
+                        </h3>
+                    </a>
+                </li>
+                <li class="nav-item ms-1">
                     <a class="nav-link" href="#contact_section">
                         <h3>
                             Contact
@@ -62,7 +70,8 @@
             </ul>
         </div>
     </nav>
-    <!--Home section-->
+
+    <!--Home Section-->
     <div class="bg-light container-fluid justify-content-center mb-5">
         <div class="row align-items-center justify-content-center ps-md-5" style="height:80vh; min-height: 513px;">
             <h2 class="col-9 text-dark display-3" style="font-family: 'Space Grotesk', serif; letter-spacing: normal; font-weight: normal">
@@ -70,6 +79,7 @@
             </h2>
         </div>
     </div>
+
     <!--Project Section-->
     <div class="container-fluid bg-primary pb-5 pt-4" id="project_section">
         <div class="row justify-content-center">
@@ -78,82 +88,123 @@
             </h2>
         </div>
         <div class="row justify-content-center pt-3">
-            <div class="col-sm-12 col-md-5 mr-2 mt-3 mb-3 mb-md-5 mt-md-0">
-                <div class="card bg-light border-dark border-2">
+            <!--Card for Network Simulator Project-->
+            <div class="col-sm-11 col-md-5 mr-2 mt-3 mb-3 mb-md-5 mt-md-0">
+                <div class="h-100 card bg-light border-0">
                     <div class="card-body">
                         <h5 class="card-title">Network Simulator</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Java, SpringBoot, HTML, CSS, XML, HTTP</h6>
+                        <h6 class="card-subtitle mb-2 text-primary">Java, SpringBoot, HTML, CSS, XML, HTTP</h6>
                         <p class="card-text">A full-stack simple network simulator created using Java for backend and a web browser as a GUI. Currently packaged as a .JAR and is hosted via LocalHost 8080.</p>
-                        <a href="https://github.com/CurranCodes/SimpleNetworkSimulator" class="card-link text-primary" target="_blank">GitHub Repo</a>
+                        <a href="https://github.com/CurranCodes/SimpleNetworkSimulator" class="card-link text-success" target="_blank">GitHub Repo</a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-5 ml-2 mt-3 mb-3 mb-md-5 mt-md-0">
-                <div class="card bg-light border-dark border-2">
+            <!--Card for Round Robin Simulator Project-->
+            <div class="col-sm-11 col-md-5 ml-2 mt-3 mb-3 mb-md-5 mt-md-0">
+                <div class="h-100 card bg-light border-0">
                     <div class="card-body">
                         <h5 class="card-title">Round Robin Simulator</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Java</h6>
+                        <h6 class="card-subtitle mb-2 text-primary">Java</h6>
                         <p class="card-text">A terminal based Java application that returns a stack trace of a simulated round-robin task scheduler. Tasks are populated from a user selected .txt file.</p>
-                        <a href="https://github.com/CurranCodes/RoundRobinSimulator" class="card-link text-primary">GitHub Repo</a>
+                        <a href="https://github.com/CurranCodes/RoundRobinSimulator" class="align-self-bottom card-link text-success">GitHub Repo</a>
                     </div>
                 </div>
             </div>
         </div>
+        <!--Second Row of Project Cards-->
         <div class="row justify-content-center pb-5">
-            <div class="col-sm-12 col-md-5 mt-3 mb-3 mb-md-5 mt-md-0">
-                <div class="card bg-light border-dark border-2">
+            <!--Card for Peer Matcher project-->
+            <div class="col-sm-11 col-md-5 mt-3 mb-3 mb-md-5 mt-md-0">
+                <div class="h-100 card bg-light border-0">
                     <div class="card-body">
                         <h5 class="card-title">Peer Matcher</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Java, SQL</h6>
+                        <h6 class="card-subtitle mb-2 text-primary">Java, SQL</h6>
                         <p class="card-text">A simple terminal-based Java application which interfaces with an SQL database to "match peers" using a recommendation system.</p>
-                        <a href="https://github.com/CurranCodes/PeerMatcher" class="card-link text-primary">GitHub Repo</a>
-                        <a href="https://drive.google.com/file/d/1kD3Xk8F6gI5Fd4T4YYNfCAcft72NLvcR/view?usp=sharing" class="card-link text-primary">Video Demonstartion</a>
+                        <a href="https://github.com/CurranCodes/PeerMatcher" class="align-self-bottom card-link text-success">GitHub Repo</a>
+                        <a href="https://drive.google.com/file/d/1kD3Xk8F6gI5Fd4T4YYNfCAcft72NLvcR/view?usp=sharing" class="align-self-bottom card-link text-success">Video Demonstartion</a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-5 ml-3 mt-3 mb-3 mb-md-5 mt-md-0">
-                <div class="card bg-light border-dark border-2">
+            <!--Card for Resume Site Project-->
+            <div class="col-sm-11 col-md-5 ml-3 mt-3 mb-3 mb-md-5 mt-md-0">
+                <div class="h-100 card bg-light border-0">
                     <div class="card-body">
                         <h5 class="card-title">Resume Site</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">HTML, CSS, SASS, Bootstrap</h6>
-                        <p class="card-text">This is the site that you are currently using right now! I used this project to learn bootstrap as well as display my capabilities as a developer.</p>
-                        <a href="https://github.com/CurranCodes/ResumeSite" class="card-link">Github Repo</a>
+                        <h6 class="card-subtitle mb-2 text-primary">HTML, CSS, SASS, Bootstrap</h6>
+                        <p class="card-text">This is the site that you are currently using right now! I used this project to learn bootstrap and display my capabilities as a developer.</p>
+                        <a href="https://github.com/CurranCodes/ResumeSite" class="align-self-bottom card-link text-success">Github Repo</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!--About Me Section-->
     <div class="container-fluid bg-dark pb-4 pt-4" id="about_me_section">
+        <!--Header of the About Me section-->
         <div class="row justify-content-center">
             <h2 class="col text-center text-warning m-4 mt-5 pt-3 pb-4 display-4">
                 ABOUT ME
             </h2>
         </div>
-        <div class="row justify-content-center ps-md-5">
-            <p class="col-9 text-light mb-5 lh-lg fs-5 pt-1">
-                I have always been fascinated with the sciences, specifically with understanding how systems work.
-                From the intricacies of our planet's ecosystems to the inner workings of our bodies,
-                I've been captivated by the complexity of it all. After graduating high school, I discovered a new interest:
-                computers. During that summer, I worked at a restaurant bussing tables and used my earnings to build
-                my first PC. It was a tedious yet fulfilling experience, as I researched and installed each component.
-                This sparked my curiosity in programming and paved the way for my future career.
-            </p>
-            <p class="col-9 text-light mb-5 lh-lg fs-5">
-                I considered computers a hobby while pursuing a major in music education.
-                However, after taking a free programming course online,
-                I discovered my passion for it and switched my career goal to becoming a software architect.
-                Programmers play a crucial role in driving technological progress, and I am eager to create sophisticated,
-                groundbreaking systems that enhance people's lives worldwide.
-            </p>
-            <p class="col-9 text-light mb-5 lh-lg fs-5 pb-5">
-                As a self-funded student throughout my time in college, I had to balance my studies with work,
-                which ultimately led to a longer-than-average undergraduate journey. Despite the challenges,
-                I maintained an exceptional academic record, achieving a 3.9 GPA on an accelerated course load while working
-                the maximum hours as a student employee at NEIU.
-            </p>
+        <!--Body of the About Me Section-->
+        <div class="row justify-content-center gx-5">
+            <!--My Headshot-->
+            <div class="col-4 align-self-top pb-5 mb-5 mt-3">
+                <div class="ratio" style="--bs-aspect-ratio: 125%">
+                    <img src="images/Headshot_4:5.jpeg" alt="Curran smiling" class="rounded">
+                </div>
+            </div>
+            <!--Paragraphs Introducing Myself-->
+            <div class="row justify-content-center col-md-10 col-lg-7">
+                <p class="col-12 text-light mb-5 lh-lg pt-1">
+                    I have always been fascinated with the sciences, specifically with understanding how systems work.
+                    From the intricacies of our planet's ecosystems to the inner workings of our bodies,
+                    I've been captivated by the complexity of it all. After graduating from high school, I discovered a new interest:
+                    computers. During that summer, I worked at a restaurant bussing tables and used my earnings to build
+                    my first PC. It was a tedious yet fulfilling experience, as I researched and installed each component.
+                    This sparked my curiosity in programming and paved the way for my future career.
+                </p>
+                <p class="col-12 text-light mb-5 lh-lg">
+                    I considered computers a hobby while pursuing a major in music education.
+                    However, after taking a free programming course online,
+                    I discovered my passion for it and switched my career goal to becoming a software architect.
+                    Programmers play a crucial role in driving technological progress, and I am eager to create sophisticated,
+                    groundbreaking systems that enhance people's lives worldwide.
+                </p>
+                <p class="col-12 text-light mb-5 lh-lg  pb-5">
+                    As a self-funded student throughout my time in college, I had to balance my studies with work,
+                    which ultimately led to a longer-than-average undergraduate journey. Despite the challenges,
+                    I maintained an exceptional academic record, achieving a 3.9 GPA on an accelerated course load while working
+                    the maximum hours as a student employee at NEIU.
+                </p>
+            </div>
         </div>
     </div>
+
+    <!--Resume Section-->
+    <div class="container-fluid bg-primary pb-5 pt-4" id="resume_section">
+        <div class="row justify-content-center">
+            <h2 class="col text-center text-secondary mt-5 pb-5 display-4 pt-3">
+                RESUME
+            </h2>
+        </div>
+        <div class="row justify-content-center">
+            <a href="/documents/CurranFitzgerald_Resume.pdf" download="Curran_Fitzgerald_Resume" class="col-9">
+                <div class="ratio" style="--bs-aspect-ratio: 129%">
+                    <img src="images/CurranFitzgerald_Resume.png" alt="Curran's Resume">
+                </div>
+            </a>
+        </div>
+        <div class="row justify-content-center">
+            <a href="/documents/CurranFitzgerald_Resume.pdf" download="Curran_Fitzgerald_Resume" class="text-center col-3 text-light pt-5 text-decoration-none">
+                <h5>Click To Download</h5>
+            </a>
+        </div>
+    </div>
+
+
+    <!--Contact Section-->
     <div class="container-fluid bg-light" id="contact_section">
         <div class="row justify-content-center">
             <h2 class="col text-center text-dark m-4 mt-5 display-4">
