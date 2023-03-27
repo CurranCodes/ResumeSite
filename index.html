@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<head>
-    <title>Curran Codes</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/images/currancodes_favicon-bold.png">
-    <style>
-        @font-face {
-            font-family: "Babe Sans";
-            src: local("BabeSans"), url("fonts/BabeSans.otf") format("opentype");
-        }
-    </style>
-    <!--    links to the custom.css file that i created using SASS-->
-    <link href="scss/Custom.css" rel="stylesheet">
-    <style>
-        h3{
-            font-family: "Space Grotesk", sans-serif;
-            font-weight: 100;
-        }
-        h2 {
-            font-family: "Babe Sans", sans-serif;
-            letter-spacing: .2em;
-            font-weight: 100;
-        }
-    </style>
-</head>
-<body class="bg-light">
+<html class="overflow-auto" lang="en">
+    <head>
+        <title>Curran Codes</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="/images/currancodes_favicon-bold.png">
+        <style>
+            @font-face {
+                font-family: "Babe Sans";
+                src: local("BabeSans"), url("fonts/BabeSans.otf") format("opentype");
+            }
+        </style>
+        <!--    links to the custom.css file that i created using SASS-->
+        <link href="scss/Custom.css" rel="stylesheet">
+        <style>
+            h3{
+                font-family: "Space Grotesk", sans-serif;
+                font-weight: 100;
+            }
+            h2 {
+                font-family: "Babe Sans", sans-serif;
+                letter-spacing: .2em;
+                font-weight: 100;
+            }
+        </style>
+    </head>
+    <body class="bg-light p-0 m-0 container-fluid overflow-hidden">
 
     <!--Dynamically Collapsible Navbar With Dropdown-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid" role="navigation">
@@ -72,7 +73,7 @@
     </nav>
 
     <!--Home Section-->
-    <div class="bg-light container-fluid justify-content-center mb-5 w-100">
+    <div class="bg-light container-fluid justify-content-center mb-5 p-0">
         <div class="row align-items-center justify-content-center ps-md-5" style="height:80vh; min-height: 513px;">
             <h2 class="col-9 text-dark display-3" style="font-family: 'Space Grotesk', serif; letter-spacing: normal; font-weight: normal">
                 A coffee-fueled coder with a solid foundation in computer science, eager to break into the world of software development.
@@ -81,15 +82,15 @@
     </div>
 
     <!--Project Section-->
-    <div class="container-fluid bg-primary pb-5 pt-4  w-100" id="project_section">
+    <div class="container-fluid bg-primary pb-5 pt-4 ps-0 ms-0" id="project_section">
         <div class="row justify-content-center">
             <h2 class="col text-center text-secondary mt-5 pb-5 display-4 pt-3" id="heading">
-                 PROJECTS
+                PROJECTS
             </h2>
         </div>
-        <div class="row justify-content-center pt-3 w-100">
+        <div class="row justify-content-center pt-3">
             <!--Card for Network Simulator Project-->
-            <div class="col-sm-11 col-md-5 mr-2 mt-3 mb-3 mb-md-5 mt-md-0">
+            <div class="col-11 col-md-5 mr-2 mt-3 mb-3 mb-md-5 mt-md-0">
                 <div class="h-100 card bg-light border-0">
                     <div class="card-body">
                         <h5 class="card-title">Network Simulator</h5>
@@ -100,7 +101,7 @@
                 </div>
             </div>
             <!--Card for Round Robin Simulator Project-->
-            <div class="col-sm-11 col-md-5 ml-2 mt-3 mb-3 mb-md-5 mt-md-0">
+            <div class="col-11 col-md-5 ml-2 mt-3 mb-3 mb-md-5 mt-md-0">
                 <div class="h-100 card bg-light border-0">
                     <div class="card-body">
                         <h5 class="card-title">Round Robin Simulator</h5>
@@ -112,9 +113,9 @@
             </div>
         </div>
         <!--Second Row of Project Cards-->
-        <div class="row justify-content-center pb-5 w-100">
+        <div class="row justify-content-center pb-5">
             <!--Card for Peer Matcher project-->
-            <div class="col-sm-11 col-md-5 mt-3 mb-3 mb-md-5 mt-md-0">
+            <div class="col-11 col-md-5 mt-3 mb-3 mb-md-5 mt-md-0">
                 <div class="h-100 card bg-light border-0">
                     <div class="card-body">
                         <h5 class="card-title">Peer Matcher</h5>
@@ -126,7 +127,7 @@
                 </div>
             </div>
             <!--Card for Resume Site Project-->
-            <div class="col-sm-11 col-md-5 ml-3 mt-3 mb-3 mb-md-5 mt-md-0">
+            <div class="col-11 col-md-5 ml-3 mt-3 mb-3 mb-md-5 mt-md-0">
                 <div class="h-100 card bg-light border-0">
                     <div class="card-body">
                         <h5 class="card-title">Resume Site</h5>
@@ -140,7 +141,7 @@
     </div>
 
     <!--About Me Section-->
-    <div class="container-fluid bg-dark pb-4 pt-4 w-100" id="about_me_section">
+    <div class="container-fluid bg-dark pb-4 pt-4" id="about_me_section">
         <!--Header of the About Me section-->
         <div class="row justify-content-center">
             <h2 class="col text-center text-warning m-4 mt-5 pt-3 pb-4 display-4">
@@ -156,7 +157,7 @@
                 </div>
             </div>
             <!--Paragraphs Introducing Myself-->
-            <div class="row justify-content-center col-md-10 col-lg-7">
+            <div class="row justify-content-center col-10 col-lg-7">
                 <p class="col-12 text-light mb-5 lh-lg pt-1">
                     I have always been fascinated with the sciences, specifically with understanding how systems work.
                     From the intricacies of our planet's ecosystems to the inner workings of our bodies,
@@ -183,7 +184,7 @@
     </div>
 
     <!--Resume Section-->
-    <div class="container-fluid bg-primary pb-5 pt-4 w-100" id="resume_section">
+    <div class="container-fluid bg-primary pb-5 pt-4" id="resume_section">
         <div class="row justify-content-center">
             <h2 class="col text-center text-secondary mt-5 pb-5 display-4 pt-3">
                 RESUME
@@ -205,44 +206,42 @@
 
 
     <!--Contact Section-->
-    <div class="container-fluid bg-light w-100" id="contact_section">
+    <div class="container-fluid bg-light" id="contact_section">
         <div class="row justify-content-center">
             <h2 class="col text-center text-dark mt-5 pb-5 display-4 pt-3">
                 CONTACT
             </h2>
         </div>
-    <div class="row justify-content-center">
-        <!--mail icon which, when clicked, starts an email to be sent my way-->
-        <a href="mailto:currancodes@gmail.com" target="_blank" class="col-1" style="width: 60px">
-            <img class="mt-1 align-self-center" src="images/mail.png" height="32" width="32" alt="Send Me an Email">
-        </a>
-        <div class="col-1"></div>
-        <!--LinkedIn icon which, when clicked, navigates to my linkedIn within another tab-->
-        <a href="https://www.linkedin.com/in/currancodes/" target="_blank" class="col-1" style="width: 60px">
-            <img class="mt-1 p-0" src="images/linkedin.png" height="32" width="32" alt="My GitHub">
-        </a>
-        <div class="col-1"></div>
-        <!--GitHub icon which, when clicked, navigates to my GitHub within another tab-->
-        <a href="https://github.com/currancodes" target="_blank" class="col-1" style="width: 60px">
-            <img class="mt-1 align-self-center p-0" src="images/github-logo.png" height="32" width="32" alt="My GitHub">
-        </a>
-    </div>
-    <div class="mt-5 pt-5  pb-5 row justify-content-center">
-        <div class="col-sm-12 col-md-4">
-            <h4>Email me at: <a class="float-end" href="mailto:currancodes@gmail.com">currancodes@gmail.com</a></h4>
+        <div class="row justify-content-center">
+            <!--mail icon which, when clicked, starts an email to be sent my way-->
+            <a href="mailto:currancodes@gmail.com" target="_blank" class="col-1" style="width: 60px">
+                <img class="mt-1 align-self-center" src="images/mail.png" height="32" width="32" alt="Send Me an Email">
+            </a>
+            <div class="col-1"></div>
+            <!--LinkedIn icon which, when clicked, navigates to my linkedIn within another tab-->
+            <a href="https://www.linkedin.com/in/currancodes/" target="_blank" class="col-1" style="width: 60px">
+                <img class="mt-1 p-0" src="images/linkedin.png" height="32" width="32" alt="My GitHub">
+            </a>
+            <div class="col-1"></div>
+            <!--GitHub icon which, when clicked, navigates to my GitHub within another tab-->
+            <a href="https://github.com/currancodes" target="_blank" class="col-1" style="width: 60px">
+                <img class="mt-1 align-self-center p-0" src="images/github-logo.png" height="32" width="32" alt="My GitHub">
+            </a>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-sm-12 col-md-4">
-            <h4>Call or text me at: <a class="float-end" href="tel:2099542451">(209) 954-2451</a></h4>
+        <div class="mt-5 pt-5 pb-5 row justify-content-center">
+            <div class="mb-3 col-11 col-sm-9 col-md-8 col-lg-7 col-xl-4 mb-xl-0">
+                <h4>Email me at: <a class="float-end" href="mailto:currancodes@gmail.com">currancodes@gmail.com</a></h4>
+            </div>
+            <div class="col-0 col-xl-1"></div>
+            <div class="mt-3 col-11 col-sm-9 col-md-8 col-lg-7 col-xl-4 mt-xl-0">
+                <h4>Call or text me at: <a class="float-end" href="tel:2099542451">(209) 954-2451</a></h4>
+            </div>
         </div>
-    </div>
     </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-<footer>
-
-</footer>
+    </body>
+</html>
