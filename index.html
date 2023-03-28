@@ -38,11 +38,14 @@
             <div class="navbar-brand ms-3" href="#">
                 <h1 class="text-primary">CURRAN FITZGERALD</h1>
             </div>
+            <!--"Sandwich" Button That Appears When Navbar Collapses-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!--Collapsible Section of Navbar-->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
+                    <!--Projects Item in Navbar that Navigates to Project Section On Click-->
                     <li class="nav-item ms-1">
                         <a class="nav-link" href="#project_section" title="Curran Fitzgerald Resume">
                             <h3>
@@ -50,6 +53,7 @@
                             </h3>
                         </a>
                     </li>
+                    <!--About Item in Navbar that Navigates to About Me Section On Click-->
                     <li class="nav-item ms-1">
                         <a class="nav-link" href="#about_me_section">
                             <h3>
@@ -57,6 +61,7 @@
                             </h3>
                         </a>
                     </li>
+                    <!--Resume Item in Navbar that Navigates to About Me Section On Click-->
                     <li class="nav-item ms-1">
                         <a class="nav-link" href="#resume_section">
                             <h3>
@@ -64,6 +69,7 @@
                             </h3>
                         </a>
                     </li>
+                    <!--Contact Item in Navbar that Navigates to Contact Section On Click-->
                     <li class="nav-item ms-1">
                         <a class="nav-link" href="#contact_section">
                             <h3>
@@ -77,11 +83,13 @@
 
         <!--Home Section-->
         <div class="bg-light container-fluid justify-content-center mb-5">
+            <!--Introductory Blurb-->
             <div class="row align-items-center justify-content-center" style="height:80vh; min-height: 513px;">
                 <h2 class="col-9 text-dark display-3" style="font-family: 'Space Grotesk', serif; letter-spacing: normal; font-weight: normal">
                     A coffee-fueled coder with a solid foundation in computer science, eager to break into the world of software development.
                 </h2>
             </div>
+            <!--Arrow element that indicates that the site affords scrolling. Navigates to Project Section on click.-->
             <div class="row align-items-center justify-content-center">
                 <a class="nav-link col-9" href="#project_section" title="Curran Fitzgerald Resume">
                     <h2 class="text-dark text-center display-5" style="font-family: 'Space Grotesk', serif;">
@@ -93,6 +101,7 @@
 
         <!--Project Section-->
         <div class="container-fluid bg-primary pb-5 pt-4 justify-content-center" id="project_section">
+            <!--Project Section header-->
             <div class="row justify-content-center">
                 <h2 class="col text-center text-secondary mt-5 pb-5 display-4 pt-3" id="heading">
                     PROJECTS
@@ -196,11 +205,13 @@
 
         <!--Resume Section-->
         <div class="container-fluid bg-primary pb-5 pt-4" id="resume_section">
+            <!--Resume Section header-->
             <div class="row justify-content-center">
                 <h2 class="col text-center text-secondary mt-5 pb-5 display-4 pt-3">
                     RESUME
                 </h2>
             </div>
+            <!--Resume Image Preview, navigates to in-browser pdf preview on click-->
             <div class="row justify-content-center">
                 <a href="/documents/CurranFitzgerald_Resume.pdf" target="_blank" class="col-9">
                     <div class="ratio" style="--bs-aspect-ratio: 129%">
@@ -208,6 +219,7 @@
                     </div>
                 </a>
             </div>
+            <!--Element that downloads my resume as a pdf on click-->
             <div class="row justify-content-center">
                 <a href="/documents/CurranFitzgerald_Resume.pdf" download="Curran_Fitzgerald_Resume" class="text-center col text-light pt-5 text-decoration-none">
                     <h5 class="text-center">Click To Download</h5>
@@ -218,11 +230,13 @@
 
         <!--Contact Section-->
         <div class="container-fluid bg-light" id="contact_section">
+            <!--Contact section header-->
             <div class="row justify-content-center">
                 <h2 class="col text-center text-dark mt-5 pb-5 display-4 pt-3">
                     CONTACT
                 </h2>
             </div>
+            <!--Row of icons that navigate to corresponding sites when clicked-->
             <div class="row justify-content-center">
                 <!--mail icon which, when clicked, starts an email to be sent my way-->
                 <a href="mailto:currancodes@gmail.com" target="_blank" class="col-1" style="width: 60px">
@@ -239,18 +253,21 @@
                     <img class="mt-1 align-self-center p-0" src="images/github-logo.png" height="32" width="32" alt="My GitHub">
                 </a>
             </div>
+            <!--Row that contains my email and phone info-->
             <div class="mt-5 pt-5 pb-5 row justify-content-center">
+                <!--Email Info column-->
                 <div class="mb-3 col-11 col-sm-8 col-lg-6 col-xl-4 mb-xl-0">
                     <h4>Email: <a class="float-end" href="mailto:currancodes@gmail.com">currancodes@gmail.com</a></h4>
                 </div>
                 <div class="col-0 col-xl-1"></div>
+                <!--Phone Info column-->
                 <div class="mt-3 col-11 col-sm-8 col-lg-6 col-xl-4 mt-xl-0">
                     <h4>Text or Call: <a class="float-end" href="tel:2099542451">(209) 954-2451</a></h4>
                 </div>
             </div>
         </div>
 
-
+        <!--js links for bootstrap-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
