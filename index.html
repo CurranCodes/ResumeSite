@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="overflow-auto" lang="en">
+<html class="overflow-auto w-100" lang="en">
     <head>
         <title>Curran Codes</title>
         <meta charset="utf-8">
@@ -26,15 +26,18 @@
                 letter-spacing: .2em;
                 font-weight: 100;
             }
+            #down_arrow{
+
+            }
         </style>
     </head>
-    <body class="bg-light p-0 m-0 overflow-hidden container-fluid">
+    <body class="bg-light p-0 m-0 overflow-hidden w-100">
 
         <!--Dynamically Collapsible Navbar With Dropdown-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid" role="navigation">
-            <a class="navbar-brand ms-3" href="#">
+            <div class="navbar-brand ms-3" href="#">
                 <h1 class="text-primary">CURRAN FITZGERALD</h1>
-            </a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -73,24 +76,32 @@
         </nav>
 
         <!--Home Section-->
-        <div class="bg-light container-fluid justify-content-center mb-5 p-0">
-            <div class="row align-items-center justify-content-center ps-md-5" style="height:80vh; min-height: 513px;">
+        <div class="bg-light container-fluid justify-content-center mb-5">
+            <div class="row align-items-center justify-content-center" style="height:80vh; min-height: 513px;">
                 <h2 class="col-9 text-dark display-3" style="font-family: 'Space Grotesk', serif; letter-spacing: normal; font-weight: normal">
                     A coffee-fueled coder with a solid foundation in computer science, eager to break into the world of software development.
                 </h2>
             </div>
+            <div class="row align-items-center justify-content-center">
+                <a class="nav-link col-9" href="#project_section" title="Curran Fitzgerald Resume">
+                    <h2 class="text-dark text-center display-5" style="font-family: 'Space Grotesk', serif;">
+                        &darr;
+                    </h2>
+                </a>
+            </div>
         </div>
 
         <!--Project Section-->
-        <div class="container-fluid bg-primary pb-5 pt-4 ps-0 ms-0 justify-content-center" id="project_section">
+        <div class="container-fluid bg-primary pb-5 pt-4 justify-content-center" id="project_section">
             <div class="row justify-content-center">
                 <h2 class="col text-center text-secondary mt-5 pb-5 display-4 pt-3" id="heading">
                     PROJECTS
                 </h2>
             </div>
-            <div class="row justify-content-center pt-3">
+            <!--First Row of Project Cards-->
+            <div class="row justify-content-center pt-3 pb-md-3">
                 <!--Card for Network Simulator Project-->
-                <div class="col-11 col-md-5 mt-3 mb-3 ms-md-3 mb-md-5 mt-md-0">
+                <div class="col-11 col-md-5 mt-3 mb-3 mb-md-5 mt-md-0">
                     <div class="h-100 card bg-light border-0">
                         <div class="card-body">
                             <h5 class="card-title">Network Simulator</h5>
@@ -101,7 +112,7 @@
                     </div>
                 </div>
                 <!--Card for Round Robin Simulator Project-->
-                <div class="col-11 col-md-5 mt-3 mb-3 ms-md-3 mb-md-5 mt-md-0">
+                <div class="col-11 col-md-5 mt-3 mb-3 mb-md-5 mt-md-0">
                     <div class="h-100 card bg-light border-0">
                         <div class="card-body">
                             <h5 class="card-title">Round Robin Simulator</h5>
@@ -115,7 +126,7 @@
             <!--Second Row of Project Cards-->
             <div class="row justify-content-center pb-5">
                 <!--Card for Peer Matcher project-->
-                <div class="col-11 col-md-5 mt-3 mb-3 ms-md-3 mb-md-5 mt-md-0">
+                <div class="col-11 col-md-5 mt-3 mb-3 mb-md-5 mt-md-0">
                     <div class="h-100 card bg-light border-0">
                         <div class="card-body">
                             <h5 class="card-title">Peer Matcher</h5>
@@ -127,7 +138,7 @@
                     </div>
                 </div>
                 <!--Card for Resume Site Project-->
-                <div class="col-11 col-md-5 mt-3 mb-3 ms-md-3 mb-md-5 mt-md-0">
+                <div class="col-11 col-md-5 mt-3 mb-3 mb-md-5 mt-md-0">
                     <div class="h-100 card bg-light border-0">
                         <div class="card-body">
                             <h5 class="card-title">Resume Site</h5>
@@ -191,14 +202,14 @@
                 </h2>
             </div>
             <div class="row justify-content-center">
-                <a href="/documents/CurranFitzgerald_Resume.pdf" download="Curran_Fitzgerald_Resume" class="col-9">
+                <a href="/documents/CurranFitzgerald_Resume.pdf" target="_blank" class="col-9">
                     <div class="ratio" style="--bs-aspect-ratio: 129%">
                         <img src="images/CurranFitzgerald_Resume.png" alt="Curran's Resume">
                     </div>
                 </a>
             </div>
             <div class="row justify-content-center">
-                <a href="/documents/CurranFitzgerald_Resume.pdf" download="Curran_Fitzgerald_Resume" class="text-center col-3 text-light pt-5 text-decoration-none">
+                <a href="/documents/CurranFitzgerald_Resume.pdf" download="Curran_Fitzgerald_Resume" class="text-center col text-light pt-5 text-decoration-none">
                     <h5 class="text-center">Click To Download</h5>
                 </a>
             </div>
